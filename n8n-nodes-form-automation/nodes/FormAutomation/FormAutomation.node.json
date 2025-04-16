@@ -1,0 +1,31 @@
+{
+  "name": "FormAutomation",
+  "displayName": "表單自動化",
+  "description": "使用 Playwright 自動填寫網頁表單",
+  "icon": "file:./form-automation.svg",
+  "group": ["automation"],
+  "defaults": {
+    "name": "Form Automation"
+  },
+  "inputs": ["main"],
+  "outputs": ["main"],
+  "properties": [
+    {
+      "displayName": "操作模式",
+      "name": "mode",
+      "type": "options",
+      "options": [
+        {
+          "name": "使用模板",
+          "value": "template"
+        },
+        {
+          "name": "直接配置",
+          "value": "direct"
+        }
+      ],
+      "default": "direct",
+      "description": "選擇使用已有模板或直接配置表單"
+    }
+  ]
+} 

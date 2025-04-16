@@ -50,10 +50,9 @@
     "typescript": "~4.8.4"
   },
   "dependencies": {
-    "acorn": "^8.14.1",
     "playwright": "^1.40.0"
   },
   "engines": {
     "node": ">=18.0.0"
   }
-}
+} 
